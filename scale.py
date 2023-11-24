@@ -34,7 +34,7 @@ exit(0)
 
 scale = StandardScaler()
 
-df = pandas.read_csv("data.csv")
+df = pandas.read_csv("data/data.csv")
 
 X = df[['Weight', 'Volume']]
 y = df['CO2']
